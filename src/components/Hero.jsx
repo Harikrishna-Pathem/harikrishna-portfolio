@@ -10,7 +10,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="min-h-screen flex items-center justify-center px-4">
+      <section id="home" className="min-h-screen flex items-center justify-center px-4">
         <div
           className="
             w-full

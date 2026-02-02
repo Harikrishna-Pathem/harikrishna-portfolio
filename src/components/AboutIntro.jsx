@@ -3,7 +3,7 @@ import { fadeUp } from "../utils/motion";
 
 export default function AboutIntro() {
   return (
-    <section className="flex justify-center px-4 py-24 pt-0">
+    <section id="about" className="flex justify-center px-4 py-24 pt-0 scroll-mt-24">
       <motion.div
         variants={fadeUp}
         initial="hidden"
